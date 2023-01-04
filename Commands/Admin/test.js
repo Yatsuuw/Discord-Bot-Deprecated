@@ -4,7 +4,7 @@ module.exports = {
     name: 'test',
     category: 'admin',
     permissions: [PermissionFlagsBits.Administrator],
-    ownerOnly: true,
+    ownerOnly: false,
     usage: 'test',
     examples: ['test'],
     description: 'Commande afin de déterminer si le Bot fonctionne bien.',
