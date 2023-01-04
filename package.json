@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "axios": "0.26.1",
+    "chalk": "4.1.2",
+    "dayjs": "1.10.7",
+    "discord.js": "14.7.1",
+    "dotenv": "16.0.0",
+    "glob": "7.2.0",
+    "moment": "2.29.4",
+    "mongoose": "6.2.3",
+    "ms": "2.1.3"
+  },
+  "name": "ai-hoshino",
+  "version": "0.7.0",
+  "description": "Robot Discord gérant la modération, l'administration d'un serveur ainsi que des fonctionnalités utilitaires.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ai",
+    "Hoshino",
+    "Ai-Hoshino",
+    "Oshi-No-Ko",
+    "Discord",
+    "Bot",
+    "Discord-Bot",
+    "Javascript"
+  ],
+  "author": "Yatsuu#0949 @ Discord",
+  "license": "MIT"
+}
