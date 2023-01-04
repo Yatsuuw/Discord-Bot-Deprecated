@@ -12,8 +12,6 @@ Bot Discord polyvalent en version 14.7.0 de l'API DJS soumis au commandes d'appl
           
           - test : exécute un test si le bot fonctionne bien
           
-          - update : réinitialise la base de données
-          
 -> Contextuel :
          
           - avatar : envoie la photo de profil de l'utilisateur sélectionné dans le salon
