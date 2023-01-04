@@ -1,3 +1,5 @@
+Notice d'utilisation du bot discord : 
+
 -> Avoir installé au préalable le logiciel Git (https://git-scm.com/downloads)
 
 -> Avoir installé au préalable NodeJS (https://nodejs.org/en/)
@@ -11,3 +13,5 @@
 -> Après avoir atterri dans le dossier du bot, faites : npm init
 
 -> Pour terminer, soit vous faites "node .\index", soit "pm2 start .\index" ou "pm2 stop .\index".
+
+-> /help sur Discord pour les commandes !
