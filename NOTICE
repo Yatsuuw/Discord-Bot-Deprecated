@@ -1,0 +1,13 @@
+-> Avoir installé au préalable le logiciel Git (https://git-scm.com/downloads)
+
+-> Avoir installé au préalable NodeJS (https://nodejs.org/en/)
+
+-> Ouvrez un terminal de commandes sur votre bureau
+
+-> Entrez la commande : git clone https://github.com/Yatsuuw/Discord-Bot.git
+
+-> Maintenant, toujours dans le même terminal, faites : cd C:{users}{user}\desktop{nom du dossier}
+
+-> Après avoir atterri dans le dossier du bot, faites : npm init
+
+-> Pour terminer, soit vous faites "node .\index", soit "pm2 start .\index" ou "pm2 stop .\index".
