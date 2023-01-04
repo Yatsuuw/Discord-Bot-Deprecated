@@ -4,9 +4,13 @@ Bot Discord polyvalent en version 14.7.0 de l'API DJS soumis au commandes d'appl
 # Fonctionnalités
 -> Administration :
           - dbconfig : paramétrer la base de données
+          
           - emit : émettre un évènement 
+          
           - reload : relancer le bot si lancer sous pm2
+          
           - test : exécute un test si le bot fonctionne bien
+          
           - update : réinitialise la base de données
 
 -> Modération :
