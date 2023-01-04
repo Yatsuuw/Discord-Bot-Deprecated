@@ -80,6 +80,8 @@ Bot Discord polyvalent en version 14.7.0 de l'API DJS soumis au commandes d'appl
 
 -> Maintenant, toujours dans le même terminal, faites : cd C:\{users}\{user}\desktop\{nom du dossier}
 
+-> Renommez le fichier "a.env.example" en ".env" tout simplement
+
 -> Après avoir atterri dans le dossier du bot, faites : npm init
 
 -> Pour terminer, soit vous faites "node .\index", soit "pm2 start .\index" ou "pm2 stop .\index".
