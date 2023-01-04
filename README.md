@@ -82,11 +82,17 @@ Bot Discord polyvalent en version 14.7.0 de l'API DJS soumis au commandes d'appl
 
 -> Licence
             Une copie de la licence doit être fournie avec le code source.
+            
+            
 -> Modification
             Chaque fichier modifié doit clairement mentionner le fait qu'il a été modifié.
+            
+            
 -> Marques et brevets
             Il doit être fait mention de tous les brevets, marques déposées, copyright et note d'attribution, à l'exception de ceux qui ne concernent pas le
             code que vous distribuez.
+            
+            
 -> NOTICE
             Si le code source original contient un fichier NOTICE, il est obligatoire de faire figurer dans votre propre développement une version lisible de ce
             même fichier sous une des formes suivantes :
