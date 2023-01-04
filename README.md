@@ -89,9 +89,12 @@ Bot Discord polyvalent en version 14.7.0 de l'API DJS soumis au commandes d'appl
             code que vous distribuez.
 -> NOTICE
             Si le code source original contient un fichier NOTICE, il est obligatoire de faire figurer dans votre propre développement une version lisible de ce
-            même fichier sous une des formes suivantes :     
-                    -> sous la forme d'un fichier texte NOTICE ;                    
-                    -> dans un écran généré (par l'application) ;                    
+            même fichier sous une des formes suivantes :
+            
+                    -> sous la forme d'un fichier texte NOTICE ;
+                    
+                    -> dans un écran généré (par l'application) ;
+                    
                     -> dans la documentation du code source.
 
 -> Le contenu de ce fichier doit être uniquement à titre informatif et ne doit en aucun cas modifier la licence.
