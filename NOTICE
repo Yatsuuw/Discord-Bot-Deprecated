@@ -6,9 +6,9 @@ Notice d'utilisation du bot discord :
 
 -> Ouvrez un terminal de commandes sur votre bureau
 
--> Entrez la commande : git clone https://github.com/Yatsuuw/Discord-Bot.git
+-> Entrez la commande : git clone https://github.com/Yatsuuw/Discord-Bot
 
--> Maintenant, toujours dans le même terminal, faites : cd C:{users}{user}\desktop{nom du dossier}
+-> Maintenant, toujours dans le même terminal, faites : cd C:Users\{user}\Desktop\{nom du dossier}
 
 -> Renommez le fichier "a.env.example" en ".env" tout simplement
 
