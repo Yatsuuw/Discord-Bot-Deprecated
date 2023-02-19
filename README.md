@@ -1,121 +1,121 @@
 # Discord-Bot
-Bot Discord polyvalent en version 14.7.1 de l'API DJS soumis au commandes d'application (SlashCommands).
+Discord Bot in 14.7.1 version of the DJS API subject to application commands (SlashCommands).
 
-# Fonctionnalités
+# Features
 -> Administration :
 
-          - dbconfig : paramétrer la base de données
+          - dbconfig: configure the database
           
-          - emit : émettre un évènement 
+          - emit: emit an event 
           
-          - reload : relancer le bot si lancer sous pm2
+          - reload: restart the bot if running under pm2
           
-          - test : exécute un test si le bot fonctionne bien
+          - test: run a test if the bot is working well
           
--> Contextuel :
+-> Contextual :
          
-          - avatar : envoie la photo de profil de l'utilisateur sélectionné dans le salon
+          - avatar: sends the profile photo of the selected user in the lounge
           
-          - userinfo : envoie les informations d'un utilisateur sous un ephemeral (auteur de l'action uniquement)
+          - userinfo: sends a user’s information under an ephemeral (author of the action only)
 
--> Modération :
+-> Moderation :
 
-          - ban : exiler un utilisateur du serveur
+          - ban: exile a server user
           
-          - clear : effacer un nombre défini de messages
+          - clear: clear a defined number of messages
           
-          - kick : expulser un utilisateur du serveur
+          - kick: expel a user from the server
           
-          - lock / unlock : bloquer / débloquer un salon textuel
+          - lock / unlock: block / unlock a text room
           
-          - message : faire passer un message par le bot
+          - message: send a message through the bot
           
-          - mute / unmute : enlever la parole sur une durée limite à un utilisateur / remettre la parole à un utilisateur
+          - mute / unmute: remove speech over a time limit to a user / give speech to a user
           
-          - warn / removeWarn / warings : avertir un utilisateur / retirer un avertissement à un utilisateur / voir les avertissements d'un utilisateur
+          - warn / removeWarn / warings: warn a user / remove a warning to a user / see a user’s warnings
           
-          - slowmode : mettre un cooldown sur l'envoi des messages du salon 
+          - slowmode: put a cooldown on sending messages from the show 
 
 -> Thread : 
 
-          - join : fait rejoindre le bot le thread
+          - join: makes the bot join the thread
           
-          - leave : fait quitter du thread le bot
+          - leave: leaves the bot from the thread
           
-          - archive : archive le thread
+          - archive: archive the thread
           
-          - unarchive : désarchive le thread
+          - unarchive: unarchive the thread
           
-          - delete : supprime le thread par l'id du salon original
+          - delete: removes the thread by the original salon id
 
 -> Utils :
 
-          - collector : collecte le nombre de fois qu'un même mot est utilisé pendant 5 secondes
+          - collector: collects the number of times the same word is used for 5 seconds
           
-          - help : menu d'aide du bot 
+          - help: bot help menu 
           
-          - jsdoc : envoie la documentation de Discord.JS
+          - jsdoc: sends Discord.JS documentation
           
-          - ping : informe de la latence du bot et de l'API Discord.JS
+          - ping: informs about the latency of the bot and the Discord.JS API
           
-          - result : menu de résultats pour une rencontre
+          - result: menu of results for a meeting
           
-          - sondage : posez une question à la communauté. Les réactions sont définies par le nombre de réponses possibles
+          - survey: ask the community a question. Reactions are defined by the number of possible responses
           
-          - version : version actuelle du bot
+          - version: current version of the bot
           
-          - welcome : envoie d'un règlement proposé par le bot avec bouton "accepter" et "refuser" avec expulsion automatique si refus.
+          - welcome: send a regulation proposed by the bot with button "accept" and "refuse" with automatic expulsion if refusal.
 
 # Installation
 
--> Avoir installé au préalable le logiciel Git (https://git-scm.com/downloads)
+-> Have Git software installed (https://git-scm.com/downloads)
 
--> Avoir installé au préalable NodeJS (https://nodejs.org/en/)
+-> Have pre-installed JsNode (https://nodejs.org/en/)
 
--> Ouvrez un terminal de commandes sur votre bureau
+-> Open an order terminal on your desktop
 
--> Entrez la commande : git clone https://github.com/Yatsuuw/Discord-Bot.git
+-> Enter the command: git clone https://github.com/Yatsuuw/Discord-Bot.git
 
--> Maintenant, toujours dans le même terminal, faites : cd C:\{users}\{user}\desktop\{nom du dossier}
+-> Now, still in the same terminal, do: cd C: {users} {user} desktop {folder name}
 
--> Renommez le fichier "a.env.example" en ".env" tout simplement
+-> Simply rename the file "a.env.example" to ". env"
 
--> Après avoir atterri dans le dossier du bot, faites : npm init
+-> After landing in the bot folder, do: npm init
 
--> Pour terminer, soit vous faites "node .\index", soit "pm2 start .\index" ou "pm2 stop .\index".
+-> To finish, either "node .  index", "pm2 start .  index" or "pm2 stop .  index".
 
 # À propos : Licence
 
--> Licence
-            Une copie de la licence doit être fournie avec le code source.
+-> License
+            A copy of the license must be provided with the source code.
             
             
 -> Modification
-            Chaque fichier modifié doit clairement mentionner le fait qu'il a été modifié.
+            Each modified file must clearly state that it has been modified.
             
             
--> Marques et brevets
-            Il doit être fait mention de tous les brevets, marques déposées, copyright et note d'attribution, à l'exception de ceux qui ne concernent pas le
-            code que vous distribuez.
+-> Trademarks and patents
+            All patents, trademarks, copyrights and attribution notes must be mentioned, with the exception of those which do not concern the
+            code you distribute.
             
             
--> NOTICE
-            Si le code source original contient un fichier NOTICE, il est obligatoire de faire figurer dans votre propre développement une version lisible de ce
-            même fichier sous une des formes suivantes :
+-> PACKAGE LEAFLET
+            If the original source code contains a NOTICE file, it is mandatory to include in your own development a readable version of this
+            same file in one of the following forms:
             
-                    -> sous la forme d'un fichier texte NOTICE ;
+                    -> in the form of a NOTICE text file;
                     
-                    -> dans un écran généré (par l'application) ;
+                    -> in a generated screen (by the application);
                     
-                    -> dans la documentation du code source.
+                    -> in the source code documentation.
 
--> Le contenu de ce fichier doit être uniquement à titre informatif et ne doit en aucun cas modifier la licence.
+-> The contents of this file must be for informational purposes only and must not modify the license.
 
--> Il est bien évidemment autorisé d'ajouter son propre copyright aux modifications ajoutées. Ces modifications peuvent être placées sous la même licence ou
-   sous les termes d'une autre licence. Si aucune déclaration explicite n'est incluse, la licence Apache sera la licence régissant les modifications.
+-> It is of course allowed to add its own copyright to the added changes. These modifications may be placed under the same license or
+   under the terms of another license. If no explicit statement is included, the Apache license will be the license governing the changes.
 
--> Cette licence ne donne pas le droit d'utiliser les marques déposées en dehors d'un usage raisonnable lors de la description des origines du logiciel.
+-> This license does not give the right to use trademarks outside of reasonable use when describing the origins of the software.
 
--> Une version modifiée ne peut avoir le même nom que le logiciel original.
+-> A modified version cannot have the same name as the original software.
 
--> Le nom des auteurs/contributeurs ne peut être utilisé pour promouvoir un produit dérivé. 
+-> Authors/contributors names cannot be used to promote a derivative. 
