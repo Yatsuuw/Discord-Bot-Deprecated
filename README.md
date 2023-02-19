@@ -1,7 +1,7 @@
-## Discord-Bot
+# Discord-Bot
 Discord Bot in 14.7.1 version of the DJS API subject to application commands (SlashCommands).
 
-# Features
+## Features
 -> Administration :
 
           - dbconfig: configure the database
@@ -66,7 +66,7 @@ Discord Bot in 14.7.1 version of the DJS API subject to application commands (Sl
           
           - welcome: send a regulation proposed by the bot with button "accept" and "refuse" with automatic expulsion if refusal.
 
-# Installation
+## Installation
 
 -> Have Git software installed (https://git-scm.com/downloads)
 
@@ -84,7 +84,7 @@ Discord Bot in 14.7.1 version of the DJS API subject to application commands (Sl
 
 -> To finish, either "node .  index", "pm2 start .  index" or "pm2 stop .  index".
 
-# About: License
+## About: License
 
 -> License
             A copy of the license must be provided with the source code.
