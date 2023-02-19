@@ -1,4 +1,4 @@
-# Discord-Bot
+## Discord-Bot
 Discord Bot in 14.7.1 version of the DJS API subject to application commands (SlashCommands).
 
 # Features
