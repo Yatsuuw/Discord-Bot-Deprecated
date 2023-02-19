@@ -84,7 +84,7 @@ Discord Bot in 14.7.1 version of the DJS API subject to application commands (Sl
 
 -> To finish, either "node .  index", "pm2 start .  index" or "pm2 stop .  index".
 
-# À propos : Licence
+# About: License
 
 -> License
             A copy of the license must be provided with the source code.
