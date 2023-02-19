@@ -20,11 +20,11 @@ Discord Bot in 14.7.1 version of the DJS API subject to application commands (Sl
 
 -> Moderation :
 
-          - ban: exile a server user
+          - exile: ban a server user
           
           - clear: clear a defined number of messages
           
-          - kick: expel a user from the server
+          - expulse: kick a user from the server
           
           - lock / unlock: block / unlock a text room
           
